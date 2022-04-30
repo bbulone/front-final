@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiBaseUrl: 'https://dashboard.heroku.com/apps/lp-dim-piano-api',
 };

@@ -3,16 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CoreModule } from './core/core.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { PianoDetailsComponent } from './piano-details/piano-details.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent, PianoDetailsComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CoreModule,
+    BrowserAnimationsModule,
+    MatGridListModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [AppComponent],
+  bootstrap: [AppComponent],
+  exports: [MatToolbarModule],
 })
-export class AppModule { }
+export class AppModule {}

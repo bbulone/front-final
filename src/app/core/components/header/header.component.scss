@@ -1,0 +1,22 @@
+.toolbar-header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  height: 150px;
+
+  span {
+    padding: 30px;
+  }
+}
+
+.logo {
+  height: 100%;
+  width: 300px;
+  background-image: url('../../../../assets/img/logo.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
