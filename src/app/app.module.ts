@@ -7,10 +7,11 @@ import { CoreModule } from './core/core.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatGridListModule } from '@angular/material/grid-list';
-import { PianoDetailsComponent } from './piano-details/piano-details.component';
+// import { PianoDetailsComponent } from './piano-details/piano-details.component';
+// import { PianoFormComponent } from './piano/components/piano-form/piano-form.component';
 
 @NgModule({
-  declarations: [AppComponent, PianoDetailsComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

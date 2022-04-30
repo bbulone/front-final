@@ -8,7 +8,7 @@ import { max, Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class PianoService {
-  private readonly PianoPath: string = '/Piano';
+  private readonly PianoPath: string = '/piano';
 
   constructor(private _http: HttpClient) {}
 

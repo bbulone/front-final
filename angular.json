@@ -105,6 +105,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "projet-final:build:production",
+            "firebaseProject": "angular-piano-d4b72",
+            "firebaseHostingSite": "angular-piano-d4b72"
+          }
         }
       }
     }

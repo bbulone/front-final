@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-piano-d4b72": {
+      "hosting": {
+        "projet-final": [
+          "angular-piano-d4b72"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-piano-d4b72"
+  }
+}
